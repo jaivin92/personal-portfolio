@@ -63,9 +63,10 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Welcome to my Portfolio</span>
+                  <span className="tagline">Welcome to my web page.</span>
                   <h1>
                     {`Hi! I'm Jaivin `}
+                    <br></br>
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
@@ -75,11 +76,21 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                  I am a passionate and experienced Full Stack Developer with over 4 years of experience in the tech field. I began my IT career as an Android developer, where I gained valuable knowledge and skills in mobile app development. However, my curiosity and drive for learning led me to explore other technologies and platforms.
+
+I had the opportunity to work with Flutter, a powerful cross-platform framework, and it opened up a whole new world of possibilities for me. As I delved deeper into Flutter, I realized the immense potential it offers in building beautiful, high-performance mobile applications.
+
+Currently, my focus lies on MERN (MongoDB, Express.js, React.js, and Node.js) stack development. This comprehensive stack allows me to develop end-to-end web applications efficiently and seamlessly. With MERN, I can leverage the power of JavaScript throughout the entire development process, ensuring a smooth and cohesive user experience.
+
+I am incredibly passionate about the MERN stack and I see it as the foundation for my future career growth. The flexibility, scalability, and robustness it offers align perfectly with my development philosophy. I thrive on challenging projects that require creative problem-solving and innovative solutions.
+
+I believe in staying up-to-date with the latest technologies and continuously expanding my skill set. As the tech industry evolves rapidly, I am committed to keeping pace with emerging trends and incorporating them into my work.
+
+If you are looking for a Full Stack Developer who is dedicated, detail-oriented, and enthusiastic about creating exceptional web applications with the MERN stack, then I am the right person for the job. I am excited to take on new challenges, collaborate with talented individuals, and contribute to the success of your projects.
+
+Please feel free to explore my portfolio and get in touch with me if you have any questions or if you would like to discuss potential collaborations. I look forward to the opportunity to work with you and turn your ideas into reality.
+
+Thank you for visiting my web page!
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
