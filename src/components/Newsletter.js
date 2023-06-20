@@ -6,6 +6,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
 
   useEffect(() => {
     if (status === 'success') clearFields();
+    
   }, [status])
 
   const handleSubmit = (e) => {
